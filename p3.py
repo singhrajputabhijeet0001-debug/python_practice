@@ -1,10 +1,8 @@
-i=input("input: ")
-a="Make a lot of money"
-b="buy now"
-c="subs"
-d="click"
-
-if i==a or i==b or i==c or i==d:
-    print("spam")
-else:
-    print("good")
+N=int(input('n: '))
+i=0
+sum=0
+while(i<N):
+    i += 1
+    sum += i
+print(sum)
+    

@@ -1,5 +1,7 @@
-u=input("username: ")
-if len(u)>=10:
-    print("contain more than 10")
-else:
-    print("contain less than 10")
+# factorial of a given no using for loop
+#5!= 1* 2* 3* 4* 5 
+n=int(input("n: "))
+p=1
+for i in range(1,n+1):
+    p=p*i
+print(p)

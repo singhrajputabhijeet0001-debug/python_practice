@@ -1,12 +1,6 @@
-a=input("A: ")
-b=input("B: ")
-c=input("C: ")
-d=input("D: ")
-if a>b and a>c and a>d :
-    print("greatese:",a)
-elif b>a and b>c and b>d:
-    print("greatese:",b)
-elif c>a and c>b and c>d:
-    print("greatese:",c)
-else:
-    print("greatese:",d)
+t=int(input("table: "))
+i=1
+while (i<11):
+    
+    print(f"{t}*{i}={t*i}")
+    i+=1
